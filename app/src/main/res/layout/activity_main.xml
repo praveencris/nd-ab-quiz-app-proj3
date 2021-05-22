@@ -17,16 +17,19 @@
             layout="@layout/list_item_radio"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
+
         <include
             android:id="@+id/question_2"
             layout="@layout/list_item_checked"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
+
         <include
             android:id="@+id/question_3"
             layout="@layout/list_item_edit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
+
         <include
             android:id="@+id/question_4"
             layout="@layout/list_item_radio"

@@ -15,7 +15,6 @@ public class Question {
         return question;
     }
 
-
     public String[] getOptions() {
         return options;
     }

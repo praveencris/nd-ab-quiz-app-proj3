@@ -94,23 +94,17 @@ public class MainActivity extends AppCompatActivity {
                 CheckBox checkBoxB = ((CheckBox) question2.findViewById(R.id.optionBCheck));
                 CheckBox checkBoxC = ((CheckBox) question2.findViewById(R.id.optionCCheck));
                 CheckBox checkBoxD = ((CheckBox) question2.findViewById(R.id.optionDCheck));
-
                 ArrayList<String> answers = new ArrayList<>(Arrays.asList(questionList.get(1).getAnswers()));
-                    if (checkBoxA.isChecked())
-                        answers.remove(checkBoxA.getText().toString());
-
-                    if (checkBoxB.isChecked())
-                        answers.remove(checkBoxB.getText().toString());
-
-                    if (checkBoxC.isChecked())
-                        answers.remove(checkBoxC.getText().toString());
-
-                    if (checkBoxD.isChecked())
-                        answers.remove(checkBoxD.getText().toString());
-
+                if (checkBoxA.isChecked())
+                    answers.remove(checkBoxA.getText().toString());
+                if (checkBoxB.isChecked())
+                    answers.remove(checkBoxB.getText().toString());
+                if (checkBoxC.isChecked())
+                    answers.remove(checkBoxC.getText().toString());
+                if (checkBoxD.isChecked())
+                    answers.remove(checkBoxD.getText().toString());
                 if (answers.isEmpty() && !checkBoxD.isChecked())
                     correctAns = correctAns + 1;
-
                 break;
             case 3:
                 String input = ((EditText) question3.findViewById(R.id.answerEdit)).getText().toString();
