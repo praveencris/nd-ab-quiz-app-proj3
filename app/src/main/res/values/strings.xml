@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="checkbox">CheckBox</string>
+    <string name="textview">TextView</string>
+    <string name="enter_your_answer">Enter your answer</string>
+    <string name="submit">Submit</string>
+</resources>
